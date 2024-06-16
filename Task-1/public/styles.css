@@ -1,0 +1,86 @@
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191a1b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #747171;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #030303;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #657688;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #000;
+}
+
+/* Button */
+button {
+    width: 90%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+/* Response Page Button */
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
